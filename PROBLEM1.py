@@ -70,8 +70,8 @@ print('Expected reward when the probability of head is 0.5:', games.get_ave_rewa
 Fig.graph_histogram(
     observations=games.get_all_reward(),
     title='Histogram of Coin Game Reward',
-    x_label='Time',
-    y_label='Reward')
+    x_label='Reward',
+    y_label='Count')
 
 
 print(games.get_lose_proportion(1000))
